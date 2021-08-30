@@ -13,16 +13,15 @@ void draw() {
   ellipse(300, 320, 350, 130);
   //head
   ellipse(135, 240, 140, 100);
-
   //tail
   triangle(475, 320, 380, 320, 495, 220);
-  //fill orange and beak
+  //orange beak
   fill(252, 218, 25);
   triangle(85, 240, 85, 270, 15, 260);
-    //wing
+  //orange wing
   fill(255, 217, 0);
   triangle(340, 320, 370, 450, 240, 320);
-  //fill black and eye
+  //black  eye
   fill(0,0,0);
   ellipse(105, 235, 10, 20);
 }
